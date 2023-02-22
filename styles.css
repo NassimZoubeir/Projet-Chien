@@ -7,18 +7,6 @@
     border-radius: 15%;
     position: relative;
 }
-.left-ear {
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
-    border-radius: 30px;
-}
-.right-ear {
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
-    border-radius: 30px;
-}
 .eye-left {
     background-color: white;
     width: 130px;
@@ -78,4 +66,21 @@
     width: 452px;
     border-radius: 30px;
     position: relative
+}
+
+.left-ear {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.right-ear {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    position: absolute;
 }
