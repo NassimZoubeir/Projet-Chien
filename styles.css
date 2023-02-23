@@ -4,7 +4,7 @@
     width: 762px;
     margin: 0 auto;
     margin-top: 15%;
-    border-radius: 15%;
+    border-radius: 20%;
     position: relative;
 }
 .eye-left {
@@ -69,18 +69,42 @@
 }
 
 .left-ear {
-    border: 2px solid red;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 400px;
+    width: 200px;
+    border-radius: 50%;
     position: absolute;
-    top: 200px;
-    left: 500px;
+    top: 50px;
+    left: 520px;
+    z-index: -1;
+    background: rgb(139, 6, 6);
 }
 .right-ear {
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
-    border-radius: 30px;
+    height: 400px;
+    width: 200px;
+    border-radius: 50%;
     position: absolute;
+    top: 50px;
+    right: 520px;
+    z-index: -1;
+    background: rgb(139, 6, 6);
+}
+.in-left {
+    height: 300px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: rgb(228, 161, 161);
+    z-index: -1;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.in-right {
+    height: 300px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: rgb(228, 161, 161);
+    z-index: -1;
+    margin-top: 50px;
+    margin-left: 35px;
 }
